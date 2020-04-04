@@ -9,6 +9,8 @@ The project is based on `flit` which configures metadata in `"pyproject"`.
 
 `innit` configures projects using either a reference to a github repo or with CLI prompts. As much as possible, you should be using Github user interfaces to interact configure projects.
 
+This configuration is ready to be used with Github Actions, Github Pages, and Read the Docs.
+
 ## files
 
 * __pyproject.toml__ is configured for the [`flit` configuration][flit configuration].
