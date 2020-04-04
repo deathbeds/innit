@@ -16,6 +16,5 @@ setuptools.setup(
     description=module.__doc__,
     long_description=pathlib.Path(metadata['description-file']).read_text(),
     long_description_content_type="text/markdown",
-    install_requires=metadata['requires'],
-    console_scripts=list(map(' = '.join, flit['scripts'].items()))
+    install_requires=metadata['requires']
 )

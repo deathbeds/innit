@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = ""
+author = ""
+author-email = ""
+home-page = ""
+classifiers = []
+description-file = "readme.md"
+requires = [
+    "click", 
+]
+
+[tool.flit.metadata.urls]
+[tool.flit.scripts]

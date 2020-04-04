@@ -15,4 +15,9 @@ requires = [
 
 
 [tool.flit.metadata.urls]
+Documentation = "https://innit.readthedocs.io/en/latest/"
+
 [tool.flit.scripts]
+innit = "innit.__main__"
+
+
