@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=2,<3", "setuptools", "toml"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "innit"
+author = "deathbeds"
+author-email = "tony.fast@gmail.com"
+home-page = "https://github.com/deathbeds/innit"
+classifiers = []
+description-file = "readme.md"
+requires = [
+    "click", 
+]
+
+
+[tool.flit.metadata.urls]
+[tool.flit.scripts]
